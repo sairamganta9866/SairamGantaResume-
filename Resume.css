@@ -1,0 +1,42 @@
+#Description {
+    height: 500px;
+    width: 100vw;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.ujnDzomRVlWLZWwQVsFU2wHaD3&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+
+#Description ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#Description ul li a {
+    text-decoration: none;
+    color: #f4512f;
+    font-weight: bold;
+}
+
+#Description ul li a:hover {
+    color: blue;
+    background-color: yellow;
+    border: 2px solid blue;
+    border-radius: 25%;
+}
+
+#mainImage {
+    height: 150px;
+    width: 150px;
+    margin-top: -100px;
+    background-image: url("https://your-image-url.com/image.jpg"); /* Replace with your image URL */
+    border-radius: 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-left {
+    text-align: left; /* Align text to the left */
+    margin-left: 100px; /* Apply some left margin */
+}
+
